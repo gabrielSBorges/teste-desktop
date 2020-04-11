@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aplicação Bonita</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <section id="intro">
+      <h1>Olá!</h1>
+      <p>Eu sou um teste</p>
+      <p>Um teste preguiçoso, sim.</p>
+    </section>
+
+    <section id="info">
+      <p>Versão do Node: <input type="text" disabled id="nodeVersion" /></p>
+      <p>Versão do Chrome: <input type="text" disabled id="chromeVersion" /></p>
+      <p>Versão do Electron: <input type="text" disabled id="electronVersion" /></p>
+    </section>
+  </body>
+  </html>
+  
+  <script>
+    document.getElementById("nodeVersion").value = process.versions.node
+    document.getElementById("chromeVersion").value = process.versions.chrome
+    document.getElementById("electronVersion").value = process.versions.electron
+  </script>

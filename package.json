@@ -1,0 +1,17 @@
+{
+  "name": "desktopteste",
+  "version": "1.0.0",
+  "description": "teste app desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Gabriel Borges",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.1"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}
